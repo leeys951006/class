@@ -24,7 +24,7 @@ class Person {
   get age() {
     return this._age;
   }
-
+  // job property
   set job(value) {
     this._job = value;
   }
@@ -39,6 +39,7 @@ person.name = '공욱재';
 person.age = 26;
 person.job = '미남';
 
+// 객체 속성 출력
 console.log('Name:', person.name);
 console.log('Age:', person.age);
 console.log('Job:', person.job);
