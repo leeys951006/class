@@ -1,16 +1,24 @@
+// Person 클래스 정의
 class Person {
   constructor() {
+    // 속성 정적으로 초기화
     this._name = '';
     this._age = 0;
     this._job = '';
   }
 
+  // name property
   set name(value) {
     this._name = value;
   }
 
   get name() {
     return this._name;
+  }
+  // age property
+
+  set age(value) {
+    this._age = value;
   }
 
   get age() {
